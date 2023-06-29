@@ -4,11 +4,11 @@ https://stackoverflow.com/questions/8588768/how-do-i-avoid-the-specification-of-
 
 ## Para realizar la configuración primero se debe generar una llave 
 
-'''sh
+```sh
 cd ~                 #Se para en el home
 ssh-keygen -t rsa    #Se genera la llave o se revisa si ya existe
 vim .ssh/id_rsa.pub  #Si el archivo existe se copia toda la línea quitando los espacios en blanco
-'''
+```
 ## Adición de la llave a github
 
 Se va a éste link:
