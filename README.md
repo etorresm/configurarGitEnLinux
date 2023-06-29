@@ -20,6 +20,6 @@ Y se genera la llave en donde dice 'New SSH Keygen', se le da un nombre y se peg
 ## Forma de clonar los repositorios
 Luego de que se configura la nueva llave, ahora se deben clonar los archivos con ssh.
 
-'''sh
+```sh
 git clone git@github.com:etorresm/xxxyyyyy
-'''
+```
